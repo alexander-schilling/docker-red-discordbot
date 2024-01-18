@@ -5,7 +5,7 @@ services:
     image: phasecorex/red-discordbot:core-audio
     restart: unless-stopped
     volumes:
-      - ./${USERDIR}/redbot:/data
+      - ${USERDIR}/redbot:/data
     environment:
       - TOKEN=${DISCORD_ADMINBOT_TOKEN}
       - PREFIX=$
