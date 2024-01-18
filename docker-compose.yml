@@ -11,3 +11,4 @@ services:
       - PREFIX=$
       - TZ=America/Santiago
       - PUID=1000
+      - OWNER=${DISCORD_ADMINBOT_OWNER}
